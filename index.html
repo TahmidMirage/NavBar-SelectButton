@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar Design</title>
+
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Box Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-one">
+      <!-- NavBar Starts -->
+      <div class="navbar">
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a href="">Home</a>
+          </li>
+          <li class="nav-link services">
+            <a href=""
+              >Services
+              <span class="material-icons dropdown-icon">
+                arrow_drop_down
+              </span>
+            </a>
+
+            <ul class="drop-down">
+              <li>Service 1</li>
+              <li>Service 2</li>
+              <li>Service 3</li>
+            </ul>
+          </li>
+          <li class="nav-link">
+            <a href="">About</a>
+          </li>
+          <li class="nav-link">
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- NavBar Ends -->
+    </div>
+
+    <!-- Drop Down Selector -->
+    <div class="drop-down-container">
+      <div class="container-two">
+        <div class="select-menu">
+          <div class="select-btn">
+            <span class="sBtn-text">Select your option</span>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+          <div class="options">
+            <li class="option">
+              <i class="bx bxl-github" style="color: #171515"></i>
+              <span class="option-text">Github</span>
+            </li>
+            <li class="option">
+              <i class="bx bxl-instagram-alt" style="color: #e1306c"></i>
+              <span class="option-text">Instagram</span>
+            </li>
+            <li class="option">
+              <i class="bx bxl-linkedin-square" style="color: #0e76a8"></i>
+              <span class="option-text">Linkedin</span>
+            </li>
+            <li class="option">
+              <i class="bx bxl-facebook-circle" style="color: #4267b2"></i>
+              <span class="option-text">Facebook</span>
+            </li>
+            <li class="option">
+              <i class="bx bxl-twitter" style="color: #1da1f2"></i>
+              <span class="option-text">Twitter</span>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./scripts.js"></script>
+  </body>
+</html>
